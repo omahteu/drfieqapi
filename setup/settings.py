@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-0n!cc6#lwgj$1&acle50s7k#v52ibl40hp)=+$kbyo#g10-9zp
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', 'omahteu.pythonanywhere.com']
+ALLOWED_HOSTS = ['localhost', 'omahteu.pythonanywhere.com', 'omahteu.github.io']
 
 
 # Application definition
@@ -134,7 +134,6 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:8000",
     "http://localhost:8000",
     "https://omahteu.github.io",
-
 ]
 
 CORS_ALLOW_METHODS = [
